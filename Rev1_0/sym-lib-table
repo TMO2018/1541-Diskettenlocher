@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TMO_Connector_Generic")(type "Legacy")(uri "${KIPRJMOD}/lib/TMO_Connector_Generic.lib")(options "")(descr ""))
+  (lib (name "TMO_Device")(type "Legacy")(uri "${KIPRJMOD}/lib/TMO_Device.lib")(options "")(descr ""))
+  (lib (name "TMO_Diode_Bridge")(type "Legacy")(uri "${KIPRJMOD}/lib/TMO_Diode_Bridge.lib")(options "")(descr ""))
+  (lib (name "TMO_Regulator_Switching")(type "Legacy")(uri "${KIPRJMOD}/lib/TMO_Regulator_Switching.lib")(options "")(descr ""))
+)

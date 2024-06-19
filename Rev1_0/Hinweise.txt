@@ -1,0 +1,16 @@
+Kicad 5.0.1
+
+Rev. 0.2.1
+- Layout geändert
+- Keramikkondensatoren in Größe SMD 1210
+
+Rev. 0.2.0.1
+- Bohrungen für den Brückengleichrichter vergrößert
+
+Rev. 0.2
+- für den Einsatz eines Murata OKX-T/3-D12 Reglers
+
+
+
+
+

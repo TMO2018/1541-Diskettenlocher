@@ -1,0 +1,8 @@
+Reichelt:
+PSK 254
+PSS 254
+
+Molex:
+KK 254
+Stecker: Serie 7395 KK 254 Wire-to-Board Header, Right-Angle, with Friction Lock
+Buchse:  Serie 2695 KK 254 Crimp Housing, Friction Ramp

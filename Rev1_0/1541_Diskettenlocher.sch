@@ -1,0 +1,427 @@
+EESchema Schematic File Version 4
+LIBS:C64-PSU-902503-06_Austauschplatine-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "C64-PSU-902503-06_Austauschplatine"
+Date "2018-10-06"
+Rev "0.2.1"
+Comp "TMO"
+Comment1 "mit Murata OKX-T/3-D12N-C Schaltregler"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TMO_Diode_Bridge:D_Bridge_+AA- D1
+U 1 1 5A6340FA
+P 3900 2900
+F 0 "D1" H 3950 3175 50  0000 L CNN
+F 1 "KBU8" H 3950 3100 50  0000 L CNN
+F 2 "TMO:Diode_Bridge_Vishay_KBU" H 3900 2900 50  0001 C CNN
+F 3 "" H 3900 2900 50  0001 C CNN
+	1    3900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 5A63416A
+P 2150 2600
+F 0 "F1" V 2230 2600 50  0000 C CNN
+F 1 "T 1,6A" V 2075 2600 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_inline_Type-I" V 2080 2600 50  0001 C CNN
+F 3 "" H 2150 2600 50  0001 C CNN
+	1    2150 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F2
+U 1 1 5A6341AF
+P 2250 3900
+F 0 "F2" V 2330 3900 50  0000 C CNN
+F 1 "T 1,6A" V 2175 3900 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_inline_Type-I" V 2180 3900 50  0001 C CNN
+F 3 "" H 2250 3900 50  0001 C CNN
+	1    2250 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Varistor RV1
+U 1 1 5A6342D8
+P 2900 2950
+F 0 "RV1" V 3025 2950 50  0000 C CNN
+F 1 "Varistor" V 2775 2950 50  0000 C CNN
+F 2 "Varistors:RV_Disc_D12_W4.5_P7.5" V 2830 2950 50  0001 C CNN
+F 3 "" H 2900 2950 50  0001 C CNN
+	1    2900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Varistor RV2
+U 1 1 5A634336
+P 2900 4250
+F 0 "RV2" V 3025 4250 50  0000 C CNN
+F 1 "Varistor" V 2775 4250 50  0000 C CNN
+F 2 "Varistors:RV_Disc_D12_W4.5_P7.5" V 2830 4250 50  0001 C CNN
+F 3 "" H 2900 4250 50  0001 C CNN
+	1    2900 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 5A63435B
+P 4700 2950
+F 0 "C1" H 4725 3050 50  0000 L CNN
+F 1 "4.700uF" H 4725 2850 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D18.0mm_P7.50mm" H 4738 2800 50  0001 C CNN
+F 3 "" H 4700 2950 50  0001 C CNN
+	1    4700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 5A6343C3
+P 5200 2950
+F 0 "C2" H 5225 3050 50  0000 L CNN
+F 1 "220uF" H 5225 2850 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D8.0mm_P3.50mm" H 5238 2800 50  0001 C CNN
+F 3 "" H 5200 2950 50  0001 C CNN
+	1    5200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C3
+U 1 1 5A6343EB
+P 6100 2950
+F 0 "C3" H 6125 3050 50  0000 L CNN
+F 1 "150uF" H 6125 2850 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D8.0mm_P3.50mm" H 6138 2800 50  0001 C CNN
+F 3 "" H 6100 2950 50  0001 C CNN
+	1    6100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C4
+U 1 1 5A634418
+P 9100 2950
+F 0 "C4" H 9125 3050 50  0000 L CNN
+F 1 "150uF" H 9125 2850 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D8.0mm_P3.50mm" H 9138 2800 50  0001 C CNN
+F 3 "" H 9100 2950 50  0001 C CNN
+	1    9100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 5A634456
+P 5650 2600
+F 0 "L1" V 5600 2600 50  0000 C CNN
+F 1 "8,2uH" V 5725 2600 50  0000 C CNN
+F 2 "TMO:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 5650 2600 50  0001 C CNN
+F 3 "" H 5650 2600 50  0001 C CNN
+	1    5650 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TMO_Device:R_POT_TRIM RV3
+U 1 1 5A6345BF
+P 7200 3100
+F 0 "RV3" V 7025 3100 50  0000 C CNN
+F 1 "2k" V 7100 3100 50  0000 C CNN
+F 2 "TMO:Potentiometer_Trimmer_Bourns_PV36W_umgedreht" H 7200 3100 50  0001 C CNN
+F 3 "" H 7200 3100 50  0001 C CNN
+	1    7200 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TMO_Regulator_Switching:OKX-T_3-D12 U1
+U 1 1 5A635538
+P 7550 2600
+F 0 "U1" H 7350 2825 50  0000 L CNN
+F 1 "OKX-T/3-D12" H 7550 2825 50  0000 L CNN
+F 2 "TMO:Murata_OKX-T3-D12" H 7550 2925 50  0001 C CNN
+F 3 "" H 7550 2700 50  0001 C CNN
+	1    7550 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2600 2900 2600
+Wire Wire Line
+	2900 3100 2900 3200
+Wire Wire Line
+	1700 3200 2900 3200
+Wire Wire Line
+	2900 2600 2900 2800
+Connection ~ 2900 2600
+Wire Wire Line
+	4200 2900 4200 2600
+Wire Wire Line
+	4200 2600 4700 2600
+Wire Wire Line
+	5800 2600 6100 2600
+Wire Wire Line
+	8100 2600 8300 2600
+Wire Wire Line
+	3600 2900 3600 3400
+Wire Wire Line
+	3600 3400 4700 3400
+Wire Wire Line
+	8300 2600 8300 2800
+Connection ~ 8300 2600
+Wire Wire Line
+	8300 3400 8300 3100
+Connection ~ 8300 3400
+Wire Wire Line
+	7700 2900 7700 3400
+Connection ~ 7700 3400
+Wire Wire Line
+	7050 2700 7250 2700
+Wire Wire Line
+	7050 2700 7050 3100
+Connection ~ 7200 3400
+Wire Wire Line
+	6100 2600 6100 2800
+Connection ~ 6100 2600
+Wire Wire Line
+	6100 3100 6100 3400
+Connection ~ 6100 3400
+Wire Wire Line
+	5200 3100 5200 3400
+Connection ~ 5200 3400
+Wire Wire Line
+	5200 2600 5200 2800
+Connection ~ 5200 2600
+Wire Wire Line
+	2400 3900 2900 3900
+Wire Wire Line
+	2900 4100 2900 3900
+Connection ~ 2900 3900
+Wire Wire Line
+	1700 4600 2900 4600
+$Comp
+L TMO_Connector_Generic:Conn_01x01_SMD J1
+U 1 1 5A635D23
+P 1550 2600
+F 0 "J1" H 1550 2450 50  0000 C CNN
+F 1 "AC1" H 1800 2600 50  0000 C CNN
+F 2 "TMO:Measurement_Point_Square-TH_Big" V 1638 2526 50  0001 C CNN
+F 3 "" H 1550 2600 50  0001 C CNN
+	1    1550 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L TMO_Connector_Generic:Conn_01x01_SMD J2
+U 1 1 5A635E5A
+P 1550 3200
+F 0 "J2" H 1550 3050 50  0000 C CNN
+F 1 "AC1" H 1800 3200 50  0000 C CNN
+F 2 "TMO:Measurement_Point_Square-TH_Big" V 1638 3126 50  0001 C CNN
+F 3 "" H 1550 3200 50  0001 C CNN
+	1    1550 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L TMO_Connector_Generic:Conn_01x01_SMD J3
+U 1 1 5A635EAC
+P 1550 3900
+F 0 "J3" H 1550 3750 50  0000 C CNN
+F 1 "AC2" H 1800 3900 50  0000 C CNN
+F 2 "TMO:Measurement_Point_Square-TH_Big" V 1638 3826 50  0001 C CNN
+F 3 "" H 1550 3900 50  0001 C CNN
+	1    1550 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L TMO_Connector_Generic:Conn_01x01_SMD J4
+U 1 1 5A635F0E
+P 1550 4600
+F 0 "J4" H 1550 4450 50  0000 C CNN
+F 1 "AC2" H 1800 4600 50  0000 C CNN
+F 2 "TMO:Measurement_Point_Square-TH_Big" V 1638 4526 50  0001 C CNN
+F 3 "" H 1550 4600 50  0001 C CNN
+	1    1550 4600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 2600 2000 2600
+Connection ~ 2900 3200
+Wire Wire Line
+	1700 3900 2100 3900
+Wire Wire Line
+	4700 2600 4700 2800
+Connection ~ 4700 2600
+Wire Wire Line
+	4700 3100 4700 3400
+Connection ~ 4700 3400
+$Comp
+L Device:D_Zener D2
+U 1 1 5A6367CA
+P 9600 2950
+F 0 "D2" H 9600 3050 50  0000 C CNN
+F 1 "6,2V" H 9600 2850 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P5.08mm_Vertical_KathodeUp" H 9600 2950 50  0001 C CNN
+F 3 "" H 9600 2950 50  0001 C CNN
+	1    9600 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 4400 2900 4600
+Connection ~ 2900 4600
+Wire Wire Line
+	10150 3400 10150 2800
+Wire Wire Line
+	10150 2800 10350 2800
+Wire Wire Line
+	10150 4600 10150 4100
+Wire Wire Line
+	10150 4100 10350 4100
+$Comp
+L TMO_Connector_Generic:Conn_01x01_SMD J5
+U 1 1 5A64BCCB
+P 10500 2600
+F 0 "J5" H 10500 2750 50  0000 C CNN
+F 1 "5V" H 10750 2600 50  0000 C CNN
+F 2 "TMO:Measurement_Point_Square-TH_Big" V 10588 2526 50  0001 C CNN
+F 3 "" H 10500 2600 50  0001 C CNN
+	1    10500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TMO_Connector_Generic:Conn_01x01_SMD J6
+U 1 1 5A64BD8F
+P 10500 2800
+F 0 "J6" H 10500 2700 50  0000 C CNN
+F 1 "GND" H 10750 2800 50  0000 C CNN
+F 2 "TMO:Measurement_Point_Square-TH_Big" V 10588 2726 50  0001 C CNN
+F 3 "" H 10500 2800 50  0001 C CNN
+	1    10500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TMO_Connector_Generic:Conn_01x01_SMD J7
+U 1 1 5A64BDE4
+P 10500 3900
+F 0 "J7" H 10500 4000 50  0000 C CNN
+F 1 "AC3" H 10750 3900 50  0000 C CNN
+F 2 "TMO:Measurement_Point_Square-TH_Big" V 10588 3826 50  0001 C CNN
+F 3 "" H 10500 3900 50  0001 C CNN
+	1    10500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L TMO_Connector_Generic:Conn_01x01_SMD J8
+U 1 1 5A64BE4D
+P 10500 4100
+F 0 "J8" H 10500 4000 50  0000 C CNN
+F 1 "AC3" H 10750 4100 50  0000 C CNN
+F 2 "TMO:Measurement_Point_Square-TH_Big" V 10588 4026 50  0001 C CNN
+F 3 "" H 10500 4100 50  0001 C CNN
+	1    10500 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3250 7200 3400
+$Comp
+L Device:CP C6
+U 1 1 5ACDB322
+P 8300 2950
+F 0 "C6" H 8325 3050 50  0000 L CNN
+F 1 "1uF" H 8325 2850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 8338 2800 50  0001 C CNN
+F 3 "" H 8300 2950 50  0001 C CNN
+	1    8300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C7
+U 1 1 5ACDB384
+P 8700 2950
+F 0 "C7" H 8725 3050 50  0000 L CNN
+F 1 "22uF" H 8725 2850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 8738 2800 50  0001 C CNN
+F 3 "" H 8700 2950 50  0001 C CNN
+	1    8700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C5
+U 1 1 5ACDB5E9
+P 6600 2950
+F 0 "C5" H 6625 3050 50  0000 L CNN
+F 1 "22uF" H 6625 2850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 6638 2800 50  0001 C CNN
+F 3 "" H 6600 2950 50  0001 C CNN
+	1    6600 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2800 8700 2600
+Connection ~ 8700 2600
+Wire Wire Line
+	9100 2800 9100 2600
+Connection ~ 9100 2600
+Wire Wire Line
+	9600 2800 9600 2600
+Connection ~ 9600 2600
+Wire Wire Line
+	8700 3100 8700 3400
+Connection ~ 8700 3400
+Wire Wire Line
+	9100 3100 9100 3400
+Connection ~ 9100 3400
+Wire Wire Line
+	9600 3100 9600 3400
+Connection ~ 9600 3400
+Wire Wire Line
+	6600 2800 6600 2600
+Connection ~ 6600 2600
+Wire Wire Line
+	6600 3100 6600 3400
+Connection ~ 6600 3400
+Wire Wire Line
+	2900 2600 3900 2600
+Wire Wire Line
+	8300 2600 8700 2600
+Wire Wire Line
+	8300 3400 8700 3400
+Wire Wire Line
+	7700 3400 8300 3400
+Wire Wire Line
+	7200 3400 7700 3400
+Wire Wire Line
+	6100 2600 6600 2600
+Wire Wire Line
+	6100 3400 6600 3400
+Wire Wire Line
+	5200 3400 6100 3400
+Wire Wire Line
+	5200 2600 5500 2600
+Wire Wire Line
+	2900 3900 10350 3900
+Wire Wire Line
+	2900 3200 3900 3200
+Wire Wire Line
+	4700 2600 5200 2600
+Wire Wire Line
+	4700 3400 5200 3400
+Wire Wire Line
+	2900 4600 10150 4600
+Wire Wire Line
+	8700 2600 9100 2600
+Wire Wire Line
+	9100 2600 9600 2600
+Wire Wire Line
+	9600 2600 10350 2600
+Wire Wire Line
+	8700 3400 9100 3400
+Wire Wire Line
+	9100 3400 9600 3400
+Wire Wire Line
+	9600 3400 10150 3400
+Wire Wire Line
+	6600 2600 7250 2600
+Wire Wire Line
+	6600 3400 7200 3400
+$EndSCHEMATC
